@@ -5,11 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2024-10-07
+
+### Added
+
+-   Added the use a bottle of water to brush your teeth.
+-   Toothbrush item now returns to the place where it was grabbed from.
+
+### Changed
+
+-   Item script definitions are now modified on both the server and the client. This should fix a mismatch of item definitions between the client and server if it were to ever happen.
+-   Optimised some code loops (remove pairs and ipairs usage).
+-   Fixed a typo in the item script.
+-   Changed some things in the mod data table. This will cause (THIS MOD ONLY, NOT ALL) player mod data to reset.
+-   Fixed the moodle not displaying the negative portion.
+-   Fixed the moodle displaying the state incorrectly.
+-   Fixed a bug which caused the items to not be tweaked properly.
+-   Fixed item distributions table parsing.
+-   Fixed player mod data being the same for all clients.
+-   Fixed the trait not being created properly. (?)
+-   Fixed from changing the bottom half of the player animation.
+
 ## [1.2.1] - 2024-07-06
 
 ### Changed
 
-- Changed logger func calls to now use implied self arg
+-   Changed logger func calls to now use implied self arg
 
 ## [1.2.0] - 2024-07-04
 
