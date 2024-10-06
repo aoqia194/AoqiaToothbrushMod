@@ -1,6 +1,0 @@
-ContextMenu_EN = {
-	ContextMenu_AoqiaToothbrushMod_BrushTeeth = "Brush Teeth",
-	ContextMenu_AoqiaToothbrushMod_TooRecent = "You have already brushed your teeth recently.",
-	ContextMenu_AoqiaToothbrushMod_AlreadyBrushed = "You have already brushed your teeth twice today.",
-	ContextMenu_AoqiaToothbrushMod_TooDepressed = "You are too depressed to maintain your hygiene.",
-}
