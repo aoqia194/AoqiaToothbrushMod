@@ -1,0 +1,7 @@
+name=aoqia's toothbrush mod
+id=AoqiaToothbrushMod
+description=This is a toothbrush mod and it's completely open-source. The idea was from "Madman's Toothpase Emporium" which hasn't been updated in quite some time.
+poster=poster.png
+require=AoqiaZomboidUtils,MoodleFramework
+versionMin=41.78.16
+modVersion=2.0.0
