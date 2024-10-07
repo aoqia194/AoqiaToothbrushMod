@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./poster.png">
+  <img src="./workshop/preview.png">
   <br>
   AoqiaToothbrushMod
 </h1>
