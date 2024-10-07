@@ -1,4 +1,0 @@
-IG_UI_EN = {
-    IGUI_AoqiaToothbrushMod_Toothpaste = "Toothpaste",
-    IGUI_AoqiaToothbrushMod_WithoutToothpaste = "Not Enough Toothpaste (Slower)",
-}

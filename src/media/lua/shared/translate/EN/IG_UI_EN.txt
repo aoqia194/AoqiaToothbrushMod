@@ -1,0 +1,8 @@
+IG_UI_EN = {
+    IGUI_AoqiaToothbrushMod_Toothpaste = "Toothpaste",
+    IGUI_AoqiaToothbrushMod_NotEnoughToothpaste = "Not Enough Toothpaste (Slower)",
+    IGUI_AoqiaToothbrushMod_NoToothpaste = "You need some toothpaste!",
+    IGUI_AoqiaToothbrushMod_TooRecent = "You have already brushed your teeth recently.",
+	IGUI_AoqiaToothbrushMod_AlreadyBrushed = "You have already brushed your teeth well today.",
+	IGUI_AoqiaToothbrushMod_TooDepressed = "You are too depressed to maintain your hygiene.",
+}
