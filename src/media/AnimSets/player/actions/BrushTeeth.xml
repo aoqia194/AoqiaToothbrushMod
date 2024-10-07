@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>BrushTeeth</m_Name>
+	<m_SpeedScale>1.75</m_SpeedScale>
+	<m_AnimName>BrushTeeth</m_AnimName>
+	<m_Looped>true</m_Looped>
+	<m_UpperOnly>true</m_UpperOnly>
+
+	<m_SyncTrackingEnabled>true</m_SyncTrackingEnabled>
+	<m_BlendTime>0.60</m_BlendTime>
+
+	<m_Conditions>
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>BrushTeeth</m_StringValue>
+	</m_Conditions>
+
+	<!-- <m_Events>
+		<m_EventName>BrushTeethSwitch</m_EventName>
+		<m_TimePc>0.10</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events> -->
+</animNode>

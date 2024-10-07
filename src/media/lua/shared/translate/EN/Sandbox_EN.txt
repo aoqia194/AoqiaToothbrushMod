@@ -1,0 +1,52 @@
+Sandbox_EN = {
+    Sandbox_AoqiaToothbrushMod = "AoqiaToothbrushMod",
+
+    Sandbox_AoqiaToothbrushMod_DoTransferItemsOnUse = "Transfer Items On Use",
+    Sandbox_AoqiaToothbrushMod_DoTransferItemsOnUse_tooltip = "Should the toothbrush and toothpaste be transfered from backpacks to the character?",
+
+    Sandbox_AoqiaToothbrushMod_DoDailyEffect = "Daily Effect",
+    Sandbox_AoqiaToothbrushMod_DoDailyEffect_tooltip = "The effect type below gets added every day when you haven't brushed your teeth. Uses a formula with the specified parameters below.",
+
+    Sandbox_AoqiaToothbrushMod_DailyEffectType = "Daily Effect Type",
+    Sandbox_AoqiaToothbrushMod_DailyEffectType_tooltip = "The type of effect to be added.",
+    Sandbox_AoqiaToothbrushMod_DailyEffectTypes_option1 = "Unhappiness",
+    Sandbox_AoqiaToothbrushMod_DailyEffectTypes_option2 = "Unhappiness and Stress",
+    Sandbox_AoqiaToothbrushMod_DailyEffectTypes_option3 = "Stress",
+    
+    Sandbox_AoqiaToothbrushMod_DailyEffectExponent = "Formula Exponent",
+    Sandbox_AoqiaToothbrushMod_DailyEffectExponent_tooltip = "The value to control how fast the unhappiness effect ramps up per day when not brushing teeth.",
+    Sandbox_AoqiaToothbrushMod_DailyEffectAlternateExponent = "Formula Alternate Exponent",
+    Sandbox_AoqiaToothbrushMod_DailyEffectAlternateExponent_tooltip = "The value to control how fast the stress effect ramps up per day when not brushing teeth.",
+    Sandbox_AoqiaToothbrushMod_DailyEffectMaxValue = "Formula Max Value",
+    Sandbox_AoqiaToothbrushMod_DailyEffectMaxValue_tooltip = "The maximum amount of unhappiness effect that can be applied per day.",
+    Sandbox_AoqiaToothbrushMod_DailyEffectAlternateMaxValue = "Formula Alternate Max Value",
+    Sandbox_AoqiaToothbrushMod_DailyEffectAlternateMaxValue_tooltip = "The maximum amount of stress effect that can be applied per day.",
+    Sandbox_AoqiaToothbrushMod_DailyEffectGracePeriod = "Formula Grace Period",
+    Sandbox_AoqiaToothbrushMod_DailyEffectGracePeriod_tooltip = "How long from the 0th brush in days to not apply the daily effects. This can also act like a grace period for world start too as you start with 0 brushes.",
+
+    Sandbox_AoqiaToothbrushMod_DoBrushTeethEffect = "Brush Teeth Effect",
+    Sandbox_AoqiaToothbrushMod_DoBrushTeethEffect_tooltip = "The effect type below gets reduced every time you brush your teeth within (Brush Teeth Max Value) brushes.",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectType = "Brush Teeth Effect Type",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectType_tooltip = "The type of effect to be reduced.",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectTypes_option1 = "Unhappiness",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectTypes_option2 = "Unhappiness and Stress",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectTypes_option3 = "Stress",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectAmount = "Brush Teeth Effect Amount",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectAmount_tooltip = "How much to reduce the unhappiness effect.",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectAlternateAmount = "Brush Teeth Effect Alternate Amount",
+    Sandbox_AoqiaToothbrushMod_BrushTeethEffectAlternateAmount_tooltip = "How much to reduce the stress effect.",
+
+    Sandbox_AoqiaToothbrushMod_BrushTeethTime = "Brush Teeth Time",
+    Sandbox_AoqiaToothbrushMod_BrushTeethTime_tooltip = "How long it takes to brush teeth with toothpaste. Without toothpaste is (time * 2).",
+    Sandbox_AoqiaToothbrushMod_BrushTeethMaxValue = "Brush Teeth Max Value",
+    Sandbox_AoqiaToothbrushMod_BrushTeethMaxValue_tooltip = "How many brushes should give the positive brush effect. For example, going over n brushes will not give any positive effects and would be just for roleplaying purposes.",
+    Sandbox_AoqiaToothbrushMod_BrushTeethRequiredWater = "Brush Teeth Required Water",
+    Sandbox_AoqiaToothbrushMod_BrushTeethRequiredWater_tooltip = "How much water should be used when brushing teeth.",
+    Sandbox_AoqiaToothbrushMod_BrushTeethRequiredToothpaste = "Brush Teeth Required Toothpaste",
+    Sandbox_AoqiaToothbrushMod_BrushTeethRequiredToothpaste_tooltip = "How much toothpaste units should be used when brushing teeth.",
+
+    Sandbox_AoqiaToothbrushMod_GoodTraitCount = "Good Trait Count",
+    Sandbox_AoqiaToothbrushMod_GoodTraitCount_tooltip = "The amount of days you need to have brushed your teeth for the full amount for to get the Golden Brusher trait.",
+    Sandbox_AoqiaToothbrushMod_BadTraitCount = "Bad Trait Count",
+    Sandbox_AoqiaToothbrushMod_BadTraitCount_tooltip = "The amount of days you need to have not brushed your teeth for to get the Foul Brusher trait.",
+}

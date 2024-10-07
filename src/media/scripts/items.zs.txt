@@ -1,0 +1,155 @@
+module AoqiaToothbrushMod {
+    item ToothbrushRed {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushRed,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushRed,
+    }
+
+    item ToothbrushOrange {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushOrange,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushOrange,
+    }
+
+    item ToothbrushYellow {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushYellow,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushYellow,
+    }
+
+    item ToothbrushGreen {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushGreen,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushGreen,
+    }
+
+    item ToothbrushLightBlue {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushLightBlue,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushLightBlue,
+    }
+
+    item ToothbrushDarkBlue {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushDarkBlue,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushDarkBlue,
+    }
+
+    item ToothbrushPurple {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushPurple,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushPurple,
+    }
+
+    item ToothbrushMagenta {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushMagenta,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushMagenta,
+    }
+
+    item ToothbrushPink {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushPink,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushPink,
+    }
+
+    item ToothbrushRosePink {
+        DisplayCategory = FirstAid,
+        DisplayName = Toothbrush,
+        Icon = ToothbrushRosePink,
+        Tags = Toothbrush,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Type = Normal,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushRosePink,
+    }
+
+    item ToothbrushTollgateGreen {
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        DisplayName = ToothbrushTollgate,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Icon = ToothbrushTollgateGreen,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushTollgateGreen,
+        Tags = Toothbrush,
+    }
+
+    item ToothbrushTollgateBlue {
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        DisplayName = ToothbrushTollgate,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Icon = ToothbrushTollgateBlue,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushTollgateBlue,
+        Tags = Toothbrush,
+    }
+
+    item ToothbrushTollgateMagenta {
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        DisplayName = ToothbrushTollgate,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Icon = ToothbrushTollgateMagenta,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushTollgateMagenta,
+        Tags = Toothbrush,
+    }
+
+    item ToothbrushTollgatePurple {
+        DisplayCategory = FirstAid,
+        Type = Normal,
+        DisplayName = ToothbrushTollgate,
+        Tooltip = Tooltip_AoqiaToothbrushMod_Toothbrush,
+        Icon = ToothbrushTollgatePurple,
+        Weight = 0.05,
+        WorldStaticModel = ToothbrushTollgatePurple,
+        Tags = Toothbrush,
+    }
+}

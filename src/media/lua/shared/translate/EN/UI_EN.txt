@@ -1,0 +1,6 @@
+UI_EN = {
+    UI_AoqiaToothbrushMod_GoldenBrusherTrait = "Golden Brusher",
+    UI_AoqiaToothbrushMod_GoldenBrusherTraitDesc = "Reduces the amount of times needed to brush in a day by half!",
+    UI_AoqiaToothbrushMod_FoulBrusherTrait = "Foul Brusher",
+    UI_AoqiaToothbrushMod_FoulBrusherTraitDesc = "Increases the amount of times needed to brush in a day by double.",
+}

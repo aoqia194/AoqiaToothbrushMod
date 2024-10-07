@@ -1,0 +1,162 @@
+VERSION = 1,
+
+option AoqiaToothbrushMod.DoTransferItemsOnUse
+{
+    type = boolean,
+    default = true,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DoTransferItemsOnUse,
+}
+
+option AoqiaToothbrushMod.DoDailyEffect
+{
+    type = boolean,
+    default = true,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DoDailyEffect,
+}
+option AoqiaToothbrushMod.DailyEffectType
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectType,
+    valueTranslation = AoqiaToothbrushMod_DailyEffectTypes,
+}
+option AoqiaToothbrushMod.DailyEffectExponent
+{
+    type = double,
+    default = 0.12,
+    min = 0.00,
+    max = 1.00,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectExponent,
+}
+option AoqiaToothbrushMod.DailyEffectAlternateExponent
+{
+    type = double,
+    default = 0.12,
+    min = 0.00,
+    max = 1.00,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectAlternateExponent,
+}
+option AoqiaToothbrushMod.DailyEffectMaxValue
+{
+    type = integer,
+    default = 25,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectMaxValue,
+}
+option AoqiaToothbrushMod.DailyEffectAlternateMaxValue
+{
+    type = integer,
+    default = 25,
+    min = 0,
+    max = 25,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectAlternateMaxValue,
+}
+option AoqiaToothbrushMod.DailyEffectGracePeriod
+{
+    type = integer,
+    default = 2,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DailyEffectGracePeriod,
+}
+
+option AoqiaToothbrushMod.DoBrushTeethEffect
+{
+    type = boolean,
+    default = true,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_DoBrushTeethEffect,
+}
+option AoqiaToothbrushMod.BrushTeethEffectType
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethEffectType,
+    valueTranslation = AoqiaToothbrushMod_BrushTeethEffectTypes,
+}
+option AoqiaToothbrushMod.BrushTeethEffectAmount
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethEffectAmount,
+}
+option AoqiaToothbrushMod.BrushTeethEffectAlternateAmount
+{
+    type = integer,
+    default = 10,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethEffectAlternateAmount,
+}
+
+option AoqiaToothbrushMod.BrushTeethTime
+{
+    type = integer,
+    default = 600,
+    min = 1,
+    max = 10000,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethTime,
+}
+option AoqiaToothbrushMod.BrushTeethMaxValue
+{
+    type = integer,
+    default = 2,
+    min = 1,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethMaxValue,
+}
+option AoqiaToothbrushMod.BrushTeethRequiredWater
+{
+    type = integer,
+    default = 1,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethRequiredWater,
+}
+option AoqiaToothbrushMod.BrushTeethRequiredToothpaste
+{
+    type = integer,
+    default = 1,
+    min = 0,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BrushTeethRequiredToothpaste,
+}
+
+option AoqiaToothbrushMod.GoodTraitCount
+{
+    type = integer,
+    default = 10,
+    min = 1,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_GoodTraitCount,
+}
+option AoqiaToothbrushMod.BadTraitCount
+{
+    type = integer,
+    default = 7,
+    min = 1,
+    max = 100,
+    page = AoqiaToothbrushMod,
+    translation = AoqiaToothbrushMod_BadTraitCount,
+}

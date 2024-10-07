@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="BrushTeeth.xml">
+	<m_Name>BrushTeeth02</m_Name>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_AnimName>BrushTeeth02</m_AnimName>
+	<m_Looped>true</m_Looped>
+
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.60</m_BlendTime>
+
+	<m_Conditions>
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>BrushTeeth02</m_StringValue>
+	</m_Conditions>
+
+	<!-- <m_Events>
+		<m_EventName>BrushTeethSwitch2</m_EventName>
+		<m_TimePc>0.90</m_TimePc>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events> -->
+
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>
