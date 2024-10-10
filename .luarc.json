@@ -132,13 +132,13 @@
         "checkThirdParty": false,
         "ignoreDir": [
             ".vscode",
-            "libs/"
+            "lib/"
         ],
         "library": [
             "C:/Users/aoqia/AppData/Roaming/Code/User/globalStorage/sumneko.lua/addonManager/addons/umbrella/module/library",
             "C:/Program Files (x86)/Steam/steamapps/common/ProjectZomboid/media/lua",
             "../AoqiaZomboidUtils/src/media/lua/shared",
-            "libs/"
+            "lib/"
         ],
         "maxPreload": 10000,
         "preloadFileSize": 10000
