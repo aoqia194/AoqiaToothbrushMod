@@ -16,7 +16,8 @@ local logger = mod_constants.LOGGER
 
 local events = {}
 
-function events.on_game_boot()
+--- @type Callback_OnInitGlobalModData
+function events.init_global_moddata()
     trait_manager.init()
     tweaks.init()
 end
@@ -24,7 +25,7 @@ end
 function events.register()
     logger:debug_shared("Registering events...")
 
-    Events.OnGameBoot.Add(events.on_game_boot)
+    Events.OnInitGlobalModData.Add(events.init_global_moddata)
 end
 
 return events
