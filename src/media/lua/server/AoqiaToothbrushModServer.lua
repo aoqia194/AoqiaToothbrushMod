@@ -10,7 +10,7 @@ local logger = mod_constants.LOGGER
 
 -- ------------------------------- Entrypoint ------------------------------- --
 
-if constants.IS_CLIENT then
+if constants.IS_CLIENT and constants.IS_SINGLEPLAYER == false then
     logger:debug_server("Prevented server entrypoint from being executed.")
     return
 end
